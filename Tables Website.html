@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Tables Website</title>
+	<style>
+		body {
+			background-color:      #459DA1;	
+			background-image:      url('path.jpg');
+			background-repeat:     no-repeat;
+			background-size:       cover;
+			background-attachment: fixed;
+			background-position:   center;		
+		}
+		
+		div {
+			background-color: white;
+			border:			  1px solid black;
+			box-shadow:		  -20px 20px 40px black;
+			padding: 		  20px;
+			position:         absolute;
+			right:            800px;
+			top:              200px;
+			width:            400px;	
+		}
+		
+		h1 {
+			color: red;
+			text-align: center;
+		}
+				
+		table, th, td {
+			border-bottom: 1px solid #DDDDDD;
+			text-align: center;
+		}
+		
+		table {
+			border-collapse: collapse;
+			width: 400px;
+		}
+		
+		tr:nth-child(even) {
+			background-color: #DDDDDD;
+		}	
+		
+		tr:nth-child(odd) {
+			background-color: #EEE;
+		}
+		
+		td:hover {
+			background-color: #047A4A;
+			color: white;
+		}
+		
+		th, td {
+			padding: 10px;
+		}
+		
+		th {
+			background-color: black;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+<div>
+	<h1>YOUR STATS</h1>
+	
+	<br>
+
+	<table>
+		<tr>
+			<th>Legend</th> <th>Season 1 Wins</th> <th>Season 2 Wins</th> <th>Season 3 Wins</th> <th>Season 4 Wins</th>
+		</tr>
+		<tr>
+			<td>Wraith</td> <td>42</td> <td>80</td> <td>96</td> <td>136</td>
+		</tr>
+		<tr>
+			<td>Pathfinder</td> <td>6</td> <td>4</td> <td>21</td> <td>32</td>
+		</tr>
+		<tr>
+			<td>Lifeline</td> <td>4</td> <td>7</td> <td>3</td> <td>10</td>
+		</tr>
+		<tr>
+			<td>Wattson</td> <td>0</td> <td>4</td> <td>6</td> <td>3</td>
+		</tr>
+		<tr>
+			<td>Gibraltor</td> <td>2</td> <td>1</td> <td>5</td> <td>3</td>
+		</tr>
+	</table>
+</div>
+</body>
